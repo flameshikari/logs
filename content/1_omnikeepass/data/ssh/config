@@ -1,0 +1,2 @@
+Include aliases/*
+Match Host * exec "pwsh.exe -c c:/users/%u/.ssh/bin/wrapper.ps1"

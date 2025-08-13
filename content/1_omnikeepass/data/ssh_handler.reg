@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\ssh]
+@="URL:Windows OpenSSH Handler"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\ssh\shell]
+[HKEY_CLASSES_ROOT\ssh\shell\open]
+[HKEY_CLASSES_ROOT\ssh\shell\open\command]
+@="pwsh -wd ~ -c ssh %1"
